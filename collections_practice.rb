@@ -18,11 +18,11 @@ def swap_elements(array)
 end
 
 def reverse_array(array)
-
+  return array.reverse
 end
 
 def kesha_maker(array)
-
+  array.collect {|word| "#{word[0..2]}#{$}#{word[4..-1]}"}
 end
 
 def find_a(array)
