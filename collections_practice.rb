@@ -35,7 +35,7 @@ end
 
 def add_s(array)
   collection =[]
-  array.each_with_index do |index, word|
+  array.each_with_index do |word, index|
     if index !=1
       collection << "#{word}s"
     end
