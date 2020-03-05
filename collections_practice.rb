@@ -26,7 +26,7 @@ def kesha_maker(array)
 end
 
 def find_a(array)
-
+  array.collect {|word| word.include?(/a.*/)}
 end
 
 def sum_array(array)
