@@ -33,13 +33,12 @@ def sum_array(array)
   array.reduce {|sum, n| sum + n}
 end
 
-require 'pry'
 def add_s(array)
   collection =[]
   array.each_with_index do |index, word|
     if index !=1
-      collect <<"#{word}s"
+      collection << "#{word}s"
     end
   end
-  # binding.pry
+  collection
 end
