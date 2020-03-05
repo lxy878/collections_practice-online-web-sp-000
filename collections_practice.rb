@@ -35,7 +35,7 @@ end
 
 require 'pry'
 def add_s(array)
-  a = array.each_with_index do |word, index| 
+  a = array.each_with_index do |word, index|
     if index !=1
       "#{word}s"
   end
