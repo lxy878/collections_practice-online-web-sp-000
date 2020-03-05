@@ -35,9 +35,10 @@ end
 
 require 'pry'
 def add_s(array)
+  collection =[]
   array.each_with_index do |index, word|
     if index !=1
-      "#{word}s"
+      collect <<"#{word}s"
     end
   end
   # binding.pry
