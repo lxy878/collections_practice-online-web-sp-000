@@ -33,7 +33,11 @@ def sum_array(array)
   array.reduce {|sum, n| sum + n}
 end
 
+require 'pry'
 def add_s(array)
-
   a = array.collect {|word| "#{word}s"}
+  binding.pry
 end
+
+a =["hand","feet", "knee", "table"]
+add_s(a)
