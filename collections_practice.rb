@@ -35,4 +35,5 @@ end
 
 def add_s(array)
 
+  a = array.collect {|word| "#{word}s"}
 end
